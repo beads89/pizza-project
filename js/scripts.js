@@ -35,5 +35,11 @@ $(document).ready(function() {
     pizzaTopping.each(function() {
       toppingArray.push($(this).val());
     })
+
+    const ordered = new Pizza(pizzaSize, toppingArray);
+    ordered.sizeCost();
+    ordered.toppingCost();
+
+    //Output what was ordered. Size and toppings along with total.
   })
 })
