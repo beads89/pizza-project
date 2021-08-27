@@ -20,4 +20,12 @@
 .container {
   position: relative;
   opacity: 0.9;
+  background-color: lightgray;
 }
+
+.hrline {
+  border: 13px inset #021a31;
+  width: 100%;
+  flex: auto;
+  /* margin-right: auto; */
+  }

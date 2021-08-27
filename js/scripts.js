@@ -23,3 +23,17 @@ Pizza.prototype.toppingCost = function() {
 }
 // Possible to use if else for adding price?
 // Have toppings be an array and add price depending on length?
+
+//UI
+
+$(document).ready(function() {
+  $("form#order").submit(function(event) {
+    event.preventDefault();
+    const pizzaSize = $("#sizeSelect").val();
+    const pizzaTopping = $(".toppings:checked");
+    let toppingArray = [];
+    pizzaTopping.each(function() {
+      toppingArray.push($(this).val());
+    })
+  })
+})
