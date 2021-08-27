@@ -1,0 +1,17 @@
+.center-text {
+  text-align: center;
+}
+
+.background-pic {
+  /* opacity: .5; */
+  /*position: absolute;
+  width: 100%;
+  height: 100%;
+  background-attachment: static; */
+  background-attachment: static;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/background-pizza.jpg);
+  /* object-fit: cover; */
+}
