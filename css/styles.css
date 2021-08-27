@@ -6,13 +6,21 @@
   height: 100vh;
 }
 
+.topseparate {
+  width: 100%;
+  border-spacing: 5px;
+  border-bottom-width: 2px;
+  border-bottom: dashed black;
+  box-sizing:content-box;
+}
+
 .background-flow {
   overflow: hidden;
   position: relative;
 }
 
 .background-pic {
-  opacity: .7;
+  opacity: .8;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -23,12 +31,16 @@
 
 .container {
   position: relative;
-  opacity: 0.9;
-  background-color: lightgray;
+  background-color: rgb(214, 214, 214, 0.8);
 }
 
 .hrline {
-  border: 13px inset #021a31;
+  border: 10px inset #021a31;
   width: 100%;
   flex: auto;
   }
+
+#orderShow {
+  display: none;
+}
+

@@ -40,6 +40,10 @@ $(document).ready(function() {
     ordered.sizeCost();
     ordered.toppingCost();
 
+    $("#orderShow").show();
+    $("#size").text(ordered.size);
+    $("#topping").text(ordered.topping);
+    $("#cost").text(ordered.price);
     //Output what was ordered. Size and toppings along with total.
   })
 })

@@ -9,11 +9,12 @@
 </head>
 <body>
   <div class="background-flow">
-    <div class="background-pic"></div>
+    <div class="background-pic">
+    </div>
     <div class="container jumbotron">
-      <div class="center-text">
+      <div class="center-text topseparate">
         <h2>Welcome to Smeetsa Hoot!</h2>
-        <h5>Notarealtown's #1 ranked pizza parlor for 20+ years is dedicated to bringing you only the finest ingredients, at the finest price.</h5>
+        <h5>Notarealtown's #1 ranked pizza parlor for 20+ years is dedicated to bringing you only the finest ingredients.</h5>
         <h5>Let's make your pizza dream come true!</h5>
       </div>
       <form id="order">
@@ -36,6 +37,11 @@
         <hr class="hrline">
         <button class="btn btn-primary">Submit</button>
       </form>
+      <div id="orderShow">
+        <h6>Your order includes:</h6>
+        <p>One <span id="size"></span> pizza with <span id="topping"></span>.</p>
+        <p>Your total comes out to $<span id="cost"></span>.</p>
+      </div>
     </div>
   </div>
 </body>
