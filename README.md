@@ -23,6 +23,7 @@ _This webpage allows a user to put together a pizza using 3 different sizes and 
 * _If downloaded, extract .zip contents to desired directory_
 * _Navigate to and open directory._
 * _Open index.html_
+* _This project also available for view via gh-pages https://beads89.github.io/pizza-project/_
 
 
 ## Known Bugs
