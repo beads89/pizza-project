@@ -42,7 +42,7 @@ $(document).ready(function() {
 
     $("#orderShow").show();
     $("#size").text(ordered.size);
-    $("#topping").text(ordered.topping);
+    $("#topping").text((ordered.topping).join(", "));
     $("#cost").text(ordered.price);
     //Output what was ordered. Size and toppings along with total.
   })
