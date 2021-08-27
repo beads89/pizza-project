@@ -46,7 +46,15 @@ _{Add your contact information here.}_
 Describe: Pizza(size, topping);
 
 Test: It should create a pizza with a size, topping, and a price.
-Code: let pizza = new Pizza("large", "meat");
+Code: let pizza = new Pizza("Large", "Pepperoni");
       pizza;
-Expected Output: expect(Pizza("large", "meat")).toEqual(Pizza {size: "large", topping: "meat", price: 0})
+Expected Output: expect(Pizza("Large", "Pepperoni")).toEqual(Pizza {size: "Large", topping: "Pepperoni", price: 0})
+
+
+Describe: Pizza.prototype.sizeCost;
+Test: It should create a pizza that cost $10, $15 or $20 dollars depending on if it's medium, large, or extra large.
+Code: let pizza = new Pizza("Large", "Pepperoni");
+      pizza.sizeCost();
+      pizza;
+Expected Output: expect(Pizza("Large", "Pepperoni")).toEqual(Pizza {size: "Large", topping: "Pepperoni", price: 20})
 
