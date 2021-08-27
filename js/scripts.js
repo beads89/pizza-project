@@ -15,3 +15,5 @@ Pizza.prototype.sizeCost = function() {
     this.price += 20;
   }
 }
+
+Pizza.prototype.toppingCost = function() {}
