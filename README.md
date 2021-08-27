@@ -56,5 +56,5 @@ Test: It should create a pizza that cost $10, $15 or $20 dollars depending on if
 Code: let pizza = new Pizza("Large", "Pepperoni");
       pizza.sizeCost();
       pizza;
-Expected Output: expect(Pizza("Large", "Pepperoni")).toEqual(Pizza {size: "Large", topping: "Pepperoni", price: 20})
+Expected Output: expect(Pizza("Large", "Pepperoni")).toEqual(Pizza {size: "Large", topping: "Pepperoni", price: 15})
 
