@@ -44,6 +44,7 @@ _{Add your contact information here.}_
 ## TDD
 
 Describe: Pizza(size, topping);
+
 Test: It should create a pizza with a size, topping, and a price.
 Code: let pizza = new Pizza("Large", "Pepperoni");
       pizza;
@@ -60,7 +61,8 @@ Expected Output: expect(Pizza("Large", "Pepperoni")).toEqual(Pizza {size: "Large
 
 Describe: Pizza.prototype.toppingCost;
 Test: It should add $2 to the cost of a pizza when a topping is added.
-Code: let pizza = new Pizza("Large", "Pepperoni");
-      pizza.toppingCost;
+Code: let pizza = new Pizza("Large", ["Pepperoni"]);
+      pizza.sizeCost();
+      pizza.toppingCost();
       pizza;
-Expected Output: expect(Pizza("Large", "Pepperoni")).toEqual(Pizza {size: "Large", topping: "Pepperoni", price: 2})
+Expected Output: expect(Pizza("Large", "Pepperoni")).toEqual(Pizza {size: "Large", topping: ["Pepperoni"], price: 17})

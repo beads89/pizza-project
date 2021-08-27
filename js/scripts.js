@@ -16,6 +16,7 @@ Pizza.prototype.sizeCost = function() {
   }
 }
 
-Pizza.prototype.toppingCost = function() {}
+Pizza.prototype.toppingCost = function() {
+}
 // Possible to use if else for adding price?
 // Have toppings be an array and add price depending on length?
