@@ -41,4 +41,12 @@ _{Let people know what to do if they run into any issues or have questions, idea
 _{Add your contact information here.}_
 
 
-# TDD
+## TDD
+
+Describe: Pizza(size, topping);
+
+Test: It should create a pizza with a size, topping, and a price.
+Code: let pizza = new Pizza("large", "meat");
+      pizza;
+Expected Output: expect(Pizza("large", "meat")).toEqual(Pizza {size: "large", topping: "meat", price: 0})
+
