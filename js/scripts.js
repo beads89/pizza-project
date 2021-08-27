@@ -21,8 +21,7 @@ Pizza.prototype.toppingCost = function() {
     this.price += 2;
   }
 }
-// Possible to use if else for adding price?
-// Have toppings be an array and add price depending on length?
+
 
 //UI
 
@@ -42,8 +41,7 @@ $(document).ready(function() {
 
     $("#orderShow").show();
     $("#size").text(ordered.size);
-    $("#topping").text((ordered.topping).join(", "));
+    $("#topping").text((" ") + (ordered.topping).join(", "));
     $("#cost").text(ordered.price);
-    //Output what was ordered. Size and toppings along with total.
   })
 })

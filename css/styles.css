@@ -9,8 +9,8 @@
 .topseparate {
   width: 100%;
   border-spacing: 5px;
-  border-bottom-width: 2px;
-  border-bottom: dashed black;
+  border-bottom-width: 1px;
+  border-bottom: dashed rgb(0, 0, 0, 0.5);
   box-sizing:content-box;
 }
 
@@ -35,12 +35,18 @@
 }
 
 .hrline {
-  border: 10px inset #021a31;
+  border: 10px inset #a3411a;
   width: 100%;
   flex: auto;
   }
 
 #orderShow {
   display: none;
+}
+
+.btn {
+  border-spacing: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
 }
 

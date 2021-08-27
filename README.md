@@ -6,26 +6,24 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This webpage allows a user to put together a pizza using 3 different sizes and a number of ingredient options. When hitting a submit, the user will be able to see what size pizza they ordered, along with their toppings and total cost._
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
-
+* _HTML5_
+* _CSS_
+* _JavaScript_
+* _Bootstrap Framework for CSS_
+* _jQuery 3.6.0 library for JavaScript_
 
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Download or clone github repository to local machine in desired directory_
+* _If downloaded, extract .zip contents to desired directory_
+* _Navigate to and open folder_
+* _Open index.html_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? Does it require building packages? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
 ## Known Bugs
 
@@ -34,7 +32,9 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+MIT
+
+Copyright (c) Brandon Eads
 
 ## Contact Information
 
